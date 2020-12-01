@@ -1,0 +1,297 @@
+
+
+* {
+
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+
+li, a, button {
+text-decoration: none;
+  font-weight: 500;
+  font-size: 30px;
+  color: white;
+  background-color: #71666C;
+  font-style: bold;
+
+}
+
+header {
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+  background-color: ;
+}
+
+.logo{
+  margin-left: 0px;
+
+}
+
+
+.nav_links{
+  list-style: none;
+
+}
+
+.nav_links li{
+  display: inline-block;
+  padding: 0px 20px ;
+  text-shadow: white;
+color: #EBDCE1;
+  text-decoration-style: double;
+  text-decoration-color: white;
+  text-decoration-line: underline;
+font-style: bold;
+
+}
+
+.nav_links li a{
+
+  transition: all 0.4s ease 0.2s;
+
+}
+
+.nav_links li a:hover{
+text-shadow: white;
+text-decoration: underline;
+text-decoration-style: double;
+text-decoration-color: white;
+  color: black;
+  font-style: bold;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: rgba(0, 136, 169, 0.8);
+  border: none;
+  border-radius: 25px;
+  cursor: crosshair;
+  transition: all 0.3s ease 0s;
+  font-style: bold;
+}
+
+button:hover{
+  background-color: red;
+  color: black;
+  font-style: bold;
+}
+
+section{
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  color: white;
+  padding: 30px 30px 30px 30px;
+  font-style: bold;
+}
+
+.bio {
+
+  padding: 30px 30px 30px 30px;
+}
+
+footer {
+
+  position: relative;
+  justify-content: flex-end;
+  bottom: 0;
+  display: flex;
+  align-items: ;
+  color: black;
+  padding: 30px 30px 30px 30px;
+  font-style: bold;
+
+}
+
+.bottom{
+
+  padding-top: 25px;
+
+}
+.bottom{
+  list-style-type: none;
+  padding: 5px;
+
+}
+
+footer .bottom li{
+
+  font-size: 16px;
+  font-style: bold;
+    border-top: 220px solid #000;
+}
+
+#half_footer{
+
+  position: relative;
+  bottom: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: ;
+  color: white;
+  padding-left:  30px 30px 30px 30px;
+
+}
+#half_footer .bottom{
+  padding-top: 25%;
+
+}
+
+#half_footer .bottom ul{
+  list-style-type: none;
+  padding: 5%;
+}
+#half_footer .bottom li{
+  font-size: 16px;
+}
+
+#half_footer .bottom li a{
+  font-size: 16px;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #667771;
+  padding: 20px;
+  justify-content: center;
+  display: flex;
+  align-items: flex-start;
+  margin-left: 20%;
+  margin-right: 20%;
+
+
+}
+
+
+input[type=submit]:hover {
+  background-color: #75667B
+;
+
+}
+
+input[type=submit] {
+  background-color: black;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 16px;
+  margin-right: 18px;
+  font-style: bold;
+
+
+}
+input[type=text], select, textarea {
+  /*width: 100%; /*.......... Full width */
+  width: 100%;
+  height: 70%;
+  padding: 12px; /* Some padding */
+  border: 1px solid white; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: horizontal;
+  margin-left: 18px;
+margin-right: 16px;
+border-color: purple;
+}
+
+
+
+
+
+body {
+  /*background-image: url('backgroundbusiness.png');*/
+  background-image: url('background 6.png');
+  background-repeat: no-no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+.box_shadow {
+  text-shadow: 2px 2px 0px #FF0000;
+}
+
+hr {
+
+
+}
+
+.hero-image {
+  align-items: center;
+  align-content: center;
+  background-color: ;
+}
+
+.hero-text {
+
+  align-items: center;
+  align-content: center;
+  background-color: ;
+  text-align: center;
+}
+
+button {
+  width: 40%;
+margin-left: 30%;
+margin-right: 30%
+}
+
+.bottom {
+  width: 40%;
+margin-left: 30%;
+margin-right: 30%
+}
+
+
+h1 {
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  text-shadow: black;
+  text-underline-position: below;
+  text-decoration: underline;
+font-size: 54px;
+  text-decoration-color: gray;
+  background-color: ;
+
+}
+
+h3 {
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  text-shadow: black;
+  text-underline-position: below;
+  text-decoration: underline;
+font-size: 54px;
+  text-decoration-color: gray;
+  background-color: ;
+
+}
+
+p {
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  text-shadow: black;
+  text-underline-position: below;
+  text-decoration: underline;
+font-size: 54px;
+  text-decoration-color: gray;
+  background-color: ;
+
+}
